@@ -11,8 +11,9 @@ function validate (e) {
   
     if (data == ""){
      alert('Empty data not allowed...!')
-    
-    } else {
+    return 
+    } 
+    else {
         let space = document.createElement ('li')
         space.innerHTML = data ;
         document.body.append(space)
