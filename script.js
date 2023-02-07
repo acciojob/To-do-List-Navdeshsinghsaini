@@ -16,8 +16,8 @@ function validate (e) {
     else {
         let space = document.createElement ('li')
         space.innerHTML = data ;
-        document.body.append(space)
-		data.innnerHTML = "";
+        document.body.append(space);
+		data = '';
        
     }
     
